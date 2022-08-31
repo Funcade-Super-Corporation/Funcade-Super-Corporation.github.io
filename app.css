@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Comic-Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comic-Sans'), local('Comic-Sans-Regular'), url("assets/comic-sans.woff") format('woff');
+}
+
+body {
+    font-family: Comic-Sans, cursive;
+}

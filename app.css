@@ -5,22 +5,54 @@
     src: local('Comic-Sans'), local('Comic-Sans-Regular'), url("assets/comic-sans.woff") format('woff');
 }
 
-body {
-    font-family: Comic-Sans, cursive;
-}
-
-* {
+html, body {
     margin: 0;
     padding: 0;
 }
 
-.banner-div {
-    display: grid;
-    height: 100%;
+body {
+    font-family: Comic-Sans, cursive;
 }
 
-.banner {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: 10px;
+h1 {
+    text-align: center;
+}
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    padding-top: 20px;
+}
+
+@media (max-width: 960px) {
+    #banner {
+        width: 90vw;
+    }
+}
+
+.navbar-body {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navbar-item {
+    float: left;
+}
+
+.navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar-item a:hover {
+    background-color: #111;
 }

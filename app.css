@@ -18,7 +18,7 @@ h1 {
     text-align: center;
 }
 
-#banner {
+.banner {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +27,7 @@ h1 {
 }
 
 @media (max-width: 960px) {
-    #banner {
+    .banner {
         width: 90vw;
     }
 }
@@ -62,4 +62,13 @@ h2 {
     text-align: center;
     margin: 0 auto;
     margin-top: 10px;
+    display: block;
+}
+
+.b {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+    padding-top: 20px;
 }
